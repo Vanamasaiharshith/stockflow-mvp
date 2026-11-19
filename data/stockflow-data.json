@@ -1,0 +1,262 @@
+{
+  "organizations": [
+    {
+      "id": "org_apex_1",
+      "name": "Apex Electronics & Retail",
+      "defaultThreshold": 10,
+      "currency": "USD",
+      "createdAt": "2026-01-01T08:00:00.000Z",
+      "updatedAt": "2026-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "org_zenith_2",
+      "name": "Zenith Retail Labs",
+      "defaultThreshold": 5,
+      "currency": "EUR",
+      "createdAt": "2026-01-01T08:00:00.000Z",
+      "updatedAt": "2026-01-01T08:00:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr_demo_1",
+      "email": "demo@stockflow.com",
+      "name": "Alex Sterling (Store Manager)",
+      "passwordHash": "$2b$10$iKZlJaavziXe89dS.RHY5.xnE9K3S/PfKtWqc6GEML1sWqJGw7v/u",
+      "organizationId": "org_apex_1",
+      "createdAt": "2026-01-01T08:00:00.000Z",
+      "updatedAt": "2026-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "usr_zenith_2",
+      "email": "zenith@stockflow.com",
+      "name": "Elena Rostova",
+      "passwordHash": "$2b$10$iKZlJaavziXe89dS.RHY5.xnE9K3S/PfKtWqc6GEML1sWqJGw7v/u",
+      "organizationId": "org_zenith_2",
+      "createdAt": "2026-01-01T08:00:00.000Z",
+      "updatedAt": "2026-01-01T08:00:00.000Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "sess_d044b8e2c22e0440",
+      "token": "9940ecfe9a7809ae65d874f65d04be4955987f27db764a64976874e7977315e6",
+      "userId": "usr_demo_1",
+      "expiresAt": "2026-11-26T13:31:37.941Z",
+      "createdAt": "2026-11-19T13:31:37.941Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_apex_01",
+      "organizationId": "org_apex_1",
+      "name": "UltraWide 34-inch Curved Gaming Monitor",
+      "sku": "MON-UW-34C",
+      "description": "144Hz, 1ms, WQHD 3440x1440 IPS panel with USB-C 90W power delivery.",
+      "quantity": 38,
+      "costPrice": 420,
+      "sellingPrice": 699.99,
+      "lowStockThreshold": 12,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "id": "prod_apex_02",
+      "organizationId": "org_apex_1",
+      "name": "Ergonomic Mesh Task Chair",
+      "sku": "CHR-ERG-M01",
+      "description": "Adjustable lumbar support, 3D armrests, breathable elastomeric mesh.",
+      "quantity": 24,
+      "costPrice": 110,
+      "sellingPrice": 229,
+      "lowStockThreshold": 8,
+      "createdAt": "2026-01-01T09:05:00.000Z",
+      "updatedAt": "2026-01-01T09:05:00.000Z"
+    },
+    {
+      "id": "prod_apex_03",
+      "organizationId": "org_apex_1",
+      "name": "Mechanical Keyboard - Wireless RGB",
+      "sku": "KEY-RGB-WL",
+      "description": "Hot-swappable tactile switches, Bluetooth 5.1 & 2.4GHz dual mode.",
+      "quantity": 52,
+      "costPrice": 45,
+      "sellingPrice": 119.5,
+      "lowStockThreshold": 15,
+      "createdAt": "2026-01-01T09:10:00.000Z",
+      "updatedAt": "2026-01-01T09:10:00.000Z"
+    },
+    {
+      "id": "prod_apex_04",
+      "organizationId": "org_apex_1",
+      "name": "Precision Wireless Optical Mouse",
+      "sku": "MOU-OPT-01",
+      "description": "Ergonomic 4000 DPI sensor, quiet click buttons, USB-C rechargeable.",
+      "quantity": 65,
+      "costPrice": 18.5,
+      "sellingPrice": 49.99,
+      "lowStockThreshold": null,
+      "createdAt": "2026-01-01T09:15:00.000Z",
+      "updatedAt": "2026-01-01T09:15:00.000Z"
+    },
+    {
+      "id": "prod_apex_05",
+      "organizationId": "org_apex_1",
+      "name": "Noise-Cancelling Studio Headphones",
+      "sku": "AUD-NCH-700",
+      "description": "Hybrid active noise cancellation with 40-hour battery life and LDAC.",
+      "quantity": 19,
+      "costPrice": 95,
+      "sellingPrice": 199,
+      "lowStockThreshold": 10,
+      "createdAt": "2026-01-01T09:20:00.000Z",
+      "updatedAt": "2026-01-01T09:20:00.000Z"
+    },
+    {
+      "id": "prod_apex_06",
+      "organizationId": "org_apex_1",
+      "name": "Thunderbolt 4 Multi-Port Docking Station",
+      "sku": "DCK-TB4-PRO",
+      "description": "Dual 4K 60Hz HDMI/DP, 100W PD charging, Gigabit Ethernet, SD reader.",
+      "quantity": 4,
+      "costPrice": 130,
+      "sellingPrice": 249.99,
+      "lowStockThreshold": 10,
+      "createdAt": "2026-01-01T09:25:00.000Z",
+      "updatedAt": "2026-01-01T09:25:00.000Z"
+    },
+    {
+      "id": "prod_apex_07",
+      "organizationId": "org_apex_1",
+      "name": "4K HDR Streaming Webcam with Dual Mic",
+      "sku": "CAM-4K-STR",
+      "description": "AI auto-framing, dual stereo noise-reducing microphones, privacy shutter.",
+      "quantity": 6,
+      "costPrice": 65,
+      "sellingPrice": 129.99,
+      "lowStockThreshold": 12,
+      "createdAt": "2026-01-01T09:30:00.000Z",
+      "updatedAt": "2026-01-01T09:30:00.000Z"
+    },
+    {
+      "id": "prod_apex_08",
+      "organizationId": "org_apex_1",
+      "name": "USB-C to DisplayPort 1.4 Braided Cable (2m)",
+      "sku": "CAB-USBC-DP",
+      "description": "Supports 8K@60Hz, 4K@144Hz, nylon braided durable jacket.",
+      "quantity": 8,
+      "costPrice": 7.2,
+      "sellingPrice": 21.99,
+      "lowStockThreshold": null,
+      "createdAt": "2026-01-01T09:35:00.000Z",
+      "updatedAt": "2026-01-01T09:35:00.000Z"
+    },
+    {
+      "id": "prod_apex_09",
+      "organizationId": "org_apex_1",
+      "name": "Smart MagSafe Dual Wireless Charger",
+      "sku": "CHG-MAG-2X",
+      "description": "15W fast magnetic wireless charging stand for iPhone and Apple Watch.",
+      "quantity": 0,
+      "costPrice": 32,
+      "sellingPrice": 79.99,
+      "lowStockThreshold": 15,
+      "createdAt": "2026-01-01T09:40:00.000Z",
+      "updatedAt": "2026-01-01T09:40:00.000Z"
+    },
+    {
+      "id": "prod_apex_10",
+      "organizationId": "org_apex_1",
+      "name": "Adjustable Aluminum Laptop Riser",
+      "sku": "ACC-LAP-STN",
+      "description": "Heavy-duty CNC aluminum alloy with heat dissipation ventilation.",
+      "quantity": 0,
+      "costPrice": 16.5,
+      "sellingPrice": 39.99,
+      "lowStockThreshold": 10,
+      "createdAt": "2026-01-01T09:45:00.000Z",
+      "updatedAt": "2026-01-01T09:45:00.000Z"
+    },
+    {
+      "id": "prod_apex_11",
+      "organizationId": "org_apex_1",
+      "name": "Extended Desk Mat - Waterproof Felt (90x40cm)",
+      "sku": "MAT-EXT-GRY",
+      "description": "Water-resistant micro-woven surface with anti-slip rubber base.",
+      "quantity": 42,
+      "costPrice": 8,
+      "sellingPrice": 24.99,
+      "lowStockThreshold": 10,
+      "createdAt": "2026-01-01T09:50:00.000Z",
+      "updatedAt": "2026-01-01T09:50:00.000Z"
+    },
+    {
+      "id": "prod_apex_12",
+      "organizationId": "org_apex_1",
+      "name": "Smart Biometric Security Padlock",
+      "sku": "SEC-BIO-LCK",
+      "description": "Instant fingerprint recognition, Bluetooth unlock app, waterproof IP65.",
+      "quantity": 5,
+      "costPrice": 22,
+      "sellingPrice": 59.99,
+      "lowStockThreshold": 10,
+      "createdAt": "2026-01-01T09:55:00.000Z",
+      "updatedAt": "2026-01-01T09:55:00.000Z"
+    },
+    {
+      "id": "prod_zenith_01",
+      "organizationId": "org_zenith_2",
+      "name": "Zenith Organic Roast Coffee Beans (1kg)",
+      "sku": "ZEN-COF-01",
+      "description": "Premium single-origin Ethiopian beans.",
+      "quantity": 120,
+      "costPrice": 9.5,
+      "sellingPrice": 28,
+      "lowStockThreshold": 15,
+      "createdAt": "2026-01-01T10:00:00.000Z",
+      "updatedAt": "2026-01-01T10:00:00.000Z"
+    }
+  ],
+  "stockAdjustments": [
+    {
+      "id": "adj_01",
+      "organizationId": "org_apex_1",
+      "productId": "prod_apex_01",
+      "previousQuantity": 28,
+      "newQuantity": 38,
+      "adjustmentAmount": 10,
+      "reason": "Supplier restocking shipment PO-2024-089",
+      "createdAt": "2026-01-02T10:00:00.000Z"
+    },
+    {
+      "id": "adj_02",
+      "organizationId": "org_apex_1",
+      "productId": "prod_apex_06",
+      "previousQuantity": 9,
+      "newQuantity": 4,
+      "adjustmentAmount": -5,
+      "reason": "Customer order fulfillment batch #4812",
+      "createdAt": "2026-01-02T13:00:00.000Z"
+    },
+    {
+      "id": "adj_03",
+      "organizationId": "org_apex_1",
+      "productId": "prod_apex_03",
+      "previousQuantity": 40,
+      "newQuantity": 52,
+      "adjustmentAmount": 12,
+      "reason": "Q1 warehouse transfer receipt",
+      "createdAt": "2026-01-02T14:30:00.000Z"
+    },
+    {
+      "id": "adj_04",
+      "organizationId": "org_apex_1",
+      "productId": "prod_apex_07",
+      "previousQuantity": 10,
+      "newQuantity": 6,
+      "adjustmentAmount": -4,
+      "reason": "Direct online dispatch",
+      "createdAt": "2026-01-02T15:45:00.000Z"
+    }
+  ]
+}

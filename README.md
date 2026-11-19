@@ -5,9 +5,8 @@
 [![Next.js](https://img.shields.io/badge/Next.js-16.4.6-black)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.3.0-blue)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)](https://www.typescriptlang.org/)
-[![Prisma](https://img.shields.io/badge/Prisma-6.19-1B222D)](https://www.prisma.io/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC)](https://tailwindcss.com/)
-[![SQLite](https://img.shields.io/badge/Database-SQLite-003B57)](https://www.sqlite.org/)
+[![Data](https://img.shields.io/badge/Data-JSON_Data_Store-007ACC)](https://www.json.org/)
 
 ---
 
@@ -16,6 +15,26 @@
 **StockFlow** is a modern, production-minded multi-tenant inventory management SaaS platform designed for retailers, independent sellers, and growing e-commerce businesses.
 
 Unlike basic CRUD student projects, StockFlow is architected with enterprise-grade multi-tenancy, strict cryptographic session management, audit trails, and financial intelligence calculations (cost valuation vs potential gross sales, profit margins, and dynamic stock health thresholds).
+
+---
+
+## 📸 Product Screenshots & Visual Showcase
+
+### 1. Executive Analytics & Health Dashboard
+> Real-time KPI summaries, inventory health ratios, threshold-based restock alerts, and live audit trails.
+![Executive Dashboard](public/screenshots/02-dashboard.png)
+
+### 2. Product Catalog Management & Fast Filtering
+> Dynamic search, SKU validation, stock level badges, pagination, and instant quantity adjustments.
+![Product Catalog](public/screenshots/03-products.png)
+
+### 3. Business Intelligence & Asset Valuation Insights
+> Interactive Recharts visualizations comparing invested cost vs retail sales valuation and gross margins.
+![Inventory Insights](public/screenshots/04-insights.png)
+
+### 4. Enterprise Multi-Tenant Authentication
+> Cryptographic session management with 1-click Demo Account auto-fill.
+![Login & Tenant Authentication](public/screenshots/01-login.png)
 
 ---
 
@@ -37,7 +56,7 @@ For immediate technical evaluation, demo accounts are seeded with realistic prod
 - **Framework:** Next.js (App Router with Server Actions & Route Handlers)
 - **Language:** TypeScript 5 (Strict Mode, 100% type-safe)
 - **Styling:** Tailwind CSS v4 with custom enterprise design system inspired by Linear, Stripe, and Vercel
-- **Database & ORM:** SQLite with Prisma ORM 6
+- **Data Architecture:** 100% Database-Free JSON Data Store (`data/stockflow-data.json`)
 - **Authentication:** Custom cryptographic sessions (HTTP-only cookies, 7-day expiration, bcryptjs hashing)
 - **Validation:** Zod schemas on both client and server boundaries
 - **Charts & Visualizations:** Recharts (Responsive Pie & Bar Charts for stock health and capital distribution)
@@ -101,41 +120,24 @@ StockFlow enforces strict multi-tenant data isolation directly at the database a
 
 ---
 
-## 6. Local Setup & Startup Guide
+## 6. Local Setup & Startup Guide (Zero Database Configuration!)
 
 ### Prerequisites
 - Node.js 18+ (Node 20+ recommended)
 - npm or pnpm
 
-### Step 1: Clone & Install Dependencies
+### Step 1: Install Dependencies
 ```bash
-cd sixth_sense_assignment
 npm install
 ```
 
-### Step 2: Environment Variables
-Create a `.env` file (or use the provided defaults):
-```env
-DATABASE_URL="file:./dev.db"
-SESSION_SECRET="stockflow-super-secure-production-ready-secret-key-32chars"
-```
-
-### Step 3: Run Database Migrations & Seed Data
-```bash
-# Push schema to SQLite
-npm run db:push
-
-# Seed demo accounts and 12 realistic products across 2 organizations
-npm run db:seed
-```
-
-### Step 4: Run Development Server
+### Step 2: Run Development Server
 ```bash
 npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) in your browser. All demo data is pre-loaded directly from `data/stockflow-data.json`!
 
-### Step 5: Run Production Build
+### Step 3: Run Production Build
 ```bash
 npm run build
 npm run start
