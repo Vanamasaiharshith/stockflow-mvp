@@ -22,19 +22,19 @@ Unlike basic CRUD student projects, StockFlow is architected with enterprise-gra
 
 ### 1. Executive Analytics & Health Dashboard
 > Real-time KPI summaries, inventory health ratios, threshold-based restock alerts, and live audit trails.
-![Executive Dashboard](public/screenshots/02-dashboard.png)
+
 
 ### 2. Product Catalog Management & Fast Filtering
 > Dynamic search, SKU validation, stock level badges, pagination, and instant quantity adjustments.
-![Product Catalog](public/screenshots/03-products.png)
+![Product Catalog]
 
 ### 3. Business Intelligence & Asset Valuation Insights
 > Interactive Recharts visualizations comparing invested cost vs retail sales valuation and gross margins.
-![Inventory Insights](public/screenshots/04-insights.png)
+!
 
 ### 4. Enterprise Multi-Tenant Authentication
 > Cryptographic session management with 1-click Demo Account auto-fill.
-![Login & Tenant Authentication](public/screenshots/01-login.png)
+
 
 ---
 
