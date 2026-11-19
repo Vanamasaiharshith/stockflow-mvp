@@ -37,15 +37,7 @@
       "updatedAt": "2026-01-01T08:00:00.000Z"
     }
   ],
-  "sessions": [
-    {
-      "id": "sess_d044b8e2c22e0440",
-      "token": "9940ecfe9a7809ae65d874f65d04be4955987f27db764a64976874e7977315e6",
-      "userId": "usr_demo_1",
-      "expiresAt": "2026-11-26T13:31:37.941Z",
-      "createdAt": "2026-11-19T13:31:37.941Z"
-    }
-  ],
+  "sessions": [],
   "products": [
     {
       "id": "prod_apex_01",
@@ -54,7 +46,7 @@
       "sku": "MON-UW-34C",
       "description": "144Hz, 1ms, WQHD 3440x1440 IPS panel with USB-C 90W power delivery.",
       "quantity": 38,
-      "costPrice": 420,
+      "costPrice": 420.0,
       "sellingPrice": 699.99,
       "lowStockThreshold": 12,
       "createdAt": "2026-01-01T09:00:00.000Z",
@@ -67,8 +59,8 @@
       "sku": "CHR-ERG-M01",
       "description": "Adjustable lumbar support, 3D armrests, breathable elastomeric mesh.",
       "quantity": 24,
-      "costPrice": 110,
-      "sellingPrice": 229,
+      "costPrice": 110.0,
+      "sellingPrice": 229.0,
       "lowStockThreshold": 8,
       "createdAt": "2026-01-01T09:05:00.000Z",
       "updatedAt": "2026-01-01T09:05:00.000Z"
@@ -80,7 +72,7 @@
       "sku": "KEY-RGB-WL",
       "description": "Hot-swappable tactile switches, Bluetooth 5.1 & 2.4GHz dual mode.",
       "quantity": 52,
-      "costPrice": 45,
+      "costPrice": 45.0,
       "sellingPrice": 119.5,
       "lowStockThreshold": 15,
       "createdAt": "2026-01-01T09:10:00.000Z",
@@ -106,8 +98,8 @@
       "sku": "AUD-NCH-700",
       "description": "Hybrid active noise cancellation with 40-hour battery life and LDAC.",
       "quantity": 19,
-      "costPrice": 95,
-      "sellingPrice": 199,
+      "costPrice": 95.0,
+      "sellingPrice": 199.0,
       "lowStockThreshold": 10,
       "createdAt": "2026-01-01T09:20:00.000Z",
       "updatedAt": "2026-01-01T09:20:00.000Z"
@@ -119,7 +111,7 @@
       "sku": "DCK-TB4-PRO",
       "description": "Dual 4K 60Hz HDMI/DP, 100W PD charging, Gigabit Ethernet, SD reader.",
       "quantity": 4,
-      "costPrice": 130,
+      "costPrice": 130.0,
       "sellingPrice": 249.99,
       "lowStockThreshold": 10,
       "createdAt": "2026-01-01T09:25:00.000Z",
@@ -132,7 +124,7 @@
       "sku": "CAM-4K-STR",
       "description": "AI auto-framing, dual stereo noise-reducing microphones, privacy shutter.",
       "quantity": 6,
-      "costPrice": 65,
+      "costPrice": 65.0,
       "sellingPrice": 129.99,
       "lowStockThreshold": 12,
       "createdAt": "2026-01-01T09:30:00.000Z",
@@ -158,7 +150,7 @@
       "sku": "CHG-MAG-2X",
       "description": "15W fast magnetic wireless charging stand for iPhone and Apple Watch.",
       "quantity": 0,
-      "costPrice": 32,
+      "costPrice": 32.0,
       "sellingPrice": 79.99,
       "lowStockThreshold": 15,
       "createdAt": "2026-01-01T09:40:00.000Z",
@@ -184,7 +176,7 @@
       "sku": "MAT-EXT-GRY",
       "description": "Water-resistant micro-woven surface with anti-slip rubber base.",
       "quantity": 42,
-      "costPrice": 8,
+      "costPrice": 8.0,
       "sellingPrice": 24.99,
       "lowStockThreshold": 10,
       "createdAt": "2026-01-01T09:50:00.000Z",
@@ -197,7 +189,7 @@
       "sku": "SEC-BIO-LCK",
       "description": "Instant fingerprint recognition, Bluetooth unlock app, waterproof IP65.",
       "quantity": 5,
-      "costPrice": 22,
+      "costPrice": 22.0,
       "sellingPrice": 59.99,
       "lowStockThreshold": 10,
       "createdAt": "2026-01-01T09:55:00.000Z",
@@ -211,7 +203,7 @@
       "description": "Premium single-origin Ethiopian beans.",
       "quantity": 120,
       "costPrice": 9.5,
-      "sellingPrice": 28,
+      "sellingPrice": 28.0,
       "lowStockThreshold": 15,
       "createdAt": "2026-01-01T10:00:00.000Z",
       "updatedAt": "2026-01-01T10:00:00.000Z"

@@ -1,7 +1,6 @@
 import { prisma } from "@/lib/db/prisma";
 import { ProductInput, ProductQueryParams } from "@/lib/validations/product";
 import { getStockStatus } from "@/lib/utils/format";
-import { Prisma } from "@prisma/client";
 
 export async function getProducts(
   orgId: string,
@@ -11,7 +10,10 @@ export async function getProducts(
   const { search, status, sortBy, sortOrder, page, limit } = params;
 
   // Build where clause
-  const where: Prisma.ProductWhereInput = {
+  const where: {
+    organizationId: string;
+    OR?: Array<{ [key: string]: { contains: string } }>;
+  } = {
     organizationId: orgId,
   };
 
