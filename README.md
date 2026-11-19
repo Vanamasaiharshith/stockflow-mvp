@@ -313,3 +313,4 @@ model StockAdjustment {
 - [x] **Clean, Polished UI/UX:** Commercial SaaS design aesthetic inspired by Linear, Stripe, and Vercel.
 - [x] **Automated Tests:** 33/33 test assertions passing.
 - [x] **Production Build Ready:** 100% clean Next.js production build (`next build`) with 0 errors.
+"# stockflow-mvp" 
